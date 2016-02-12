@@ -25,6 +25,10 @@ To achieve the token, you need to do a POST request to localhost:3000/authentica
 
 When you have the token, you can include the 'Authorization: Bearer YOUR TOKEN' in the header of your request.
 
+# Configuration
+
+Make sure you have your elasticsearch is running, and have your elasticsearch IP and port number listed in configuration.json.
+
 # Current endpoints
 
 | Method | Endpoint                  | Description                                   | Test   |
