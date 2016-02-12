@@ -35,7 +35,7 @@ When you have the token, you can include the 'Authorization: Bearer YOUR TOKEN' 
 | POST   | `\document\search\string` | Perform a search passing the query as a string| Passed |
 | POST   | `\documents\mapping`      | Perform a mapping call                        | Passed |
 
-# Coming task
+# Coming tasks
 
 1. Generate API doc using swagger
 2. Create endpoints for more Elasticsearch queries
