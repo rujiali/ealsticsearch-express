@@ -1,0 +1,9 @@
+{
+  "host": "localhost:9200",
+  "users": [
+    {
+      "username": "testuser",
+      "password": "12345"
+    }
+  ]
+}
