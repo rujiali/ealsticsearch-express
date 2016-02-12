@@ -35,9 +35,9 @@ When you have the token, you can include the 'Authorization: Bearer YOUR TOKEN' 
 | POST   | `\document\search\string` | Perform a search passing the query as a string| Passed |
 | POST   | `\documents\mapping`      | Perform a mapping call                        | Passed |
 
-# Coming task
+# Coming tasks
 
-1. Generate API doc using swagger
+1. Generate API doc
 2. Create endpoints for more Elasticsearch queries
 3. Add tests for new endpoints
 4. Create AngularJS frontend as an example
