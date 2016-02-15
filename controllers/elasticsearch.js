@@ -99,3 +99,13 @@ function getMapping(index, type) {
   })
 }
 exports.getMapping = getMapping;
+
+/**
+ * Execute several search requests within the same request.
+ */
+function msearch(query_body) {
+  return elasticClient.msearch({
+    body: query_body
+  })
+}
+exports.msearch = msearch;

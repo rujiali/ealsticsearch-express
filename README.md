@@ -38,6 +38,7 @@ Make sure you have your elasticsearch is running, and have your elasticsearch IP
 | POST   | `\documents\all`          | Perform a match_all request to elasticsearch  | Passed |
 | POST   | `\document\search\string` | Perform a search passing the query as a string| Passed |
 | POST   | `\documents\mapping`      | Perform a mapping call                        | Passed |
+| POST   | `\documents\msearch`      | Perform a multiple search call                | Passed |
 
 # Coming tasks
 

@@ -85,4 +85,16 @@ describe('#/documents', function () {
           done();
         });
   });
+
+  it('- should POST multiple search queries', function (done) {
+    server
+        .post('/documents/msearch')
+        .set('Authorization', 'Bearer ' + token)
+        .send({ query_body: [ {}, { query: { match_all: {} } } ]})
+        .end(function (err, res) {
+          expect(err).to.be.null;
+          expect(JSON.parse(res.text)).to.exist;
+          done();
+        });
+  });
 });

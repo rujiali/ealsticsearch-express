@@ -23,4 +23,9 @@ router.post('/mapping', function (req, res, next) {
   elastic.getMapping(req.body.index, req.body.type).then(function (result) { res.json(result) });
 });
 
+/* Perform msearch */
+router.post('/msearch', function (req, res, next) {
+  elastic.msearch(req.body.query_body).then(function (result) { res.json(result) });
+});
+
 module.exports = router;
